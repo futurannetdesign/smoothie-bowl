@@ -1,3 +1,5 @@
+@import url(./header.css);
+@import url(./main.css);
 * {
   padding: 0;
   margin: 0;
@@ -35,22 +37,4 @@ body, button, a {
 }
 html {
   background-color: var(--morango-background);
-}
-.header {
-  padding: 40px 0;
-}
-.header-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.header-logo img {
-  width: 100%;
-  width: 80px;
-}
-.header-nav ul {
-  color: var(--text);
-  font-size: 16px;
-  display: flex;
-  gap: 40px;
 }
