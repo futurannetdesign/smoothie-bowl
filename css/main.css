@@ -1,3 +1,7 @@
+.main-info {
+  display: flex;
+  flex-direction: column;
+}
 .main-ciclo {
   border-radius: 90% 0%  0% 1%;
   position: absolute;
@@ -6,11 +10,13 @@
   bottom: 0;
   right: 0;
   background-color: #FFE1E2;
+ 
 }
 .main-info h1 {
   color: #000;
   font-size: 3rem;
   font-weight: 800;
+  margin-left: 40px;
 }
 .main-info p {
   color: #000;
@@ -18,4 +24,22 @@
   font-weight: 300;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  margin-left: 40px;
+}
+.main-info-container {
+  display: flex;
+}
+.main-ilustration img {
+  width: 360px;
+  z-index: 1;
+  position: relative;
+  left: -20px;
+  top: 30px;
+}
+.main-ilustration-1 img {
+  width: 160px;
+  z-index: 1;
+  position: relative;
+  top: -80px;
+  left: -80px;
 }
